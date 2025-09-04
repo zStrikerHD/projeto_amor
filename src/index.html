@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Contagem regressiva</title>
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text">
+                A data mais especial do ano chega em:
+                <br />
+                <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Restaurante mais proximo
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        01/01/2026 ás 19hras
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Vai perder?
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--primeira">
+        <div class="container" data-aos="fade-right">
+            <div class="event__datails">
+                <h2 class="event__datails__title">05/11/2023</h2>
+                <p class="event__datails__description">
+                    O começo de tudo, momento aonde estavamos nos conhecendo ainda, nem sabiamos que isso nao seria nada em vão, que seria uma das nossas melhores escolhas
+                </p>
+            </div>
+            <img class="event__image" src="./images/primeira_foto.jpg" alt="Primera foto">
+        </div>
+    </section>
+    <section class="event event--segunda event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__datails">
+                <h2 class="event__datails__title">06/01/2024</h2>
+                <p class="event__datails__description">
+                    Ainda nos conhecendo, mais cada dia, so melhorava, os momentos cada vez se tornando unicos entre nos
+                </p>
+            </div>
+            <img class="event__image" src="./images/segunda_foto.jpg" alt="Segunda foto">
+        </div>
+    </section>
+    <section class="event event--terceira">
+        <div class="container" data-aos="fade-right">
+            <div class="event__datails">
+                <h2 class="event__datails__title">18/01/2025</h2>
+                <p class="event__datails__description">
+                    Um dos melhores momentos, ao lado da melhor companhia que poderia ter, nosso primeiro jogo do são paulo, e nosso começo do namoro 
+                </p>
+            </div>
+            <img class="event__image" src="./images/terceira_foto.jpg" alt="Terceira foto">
+        </div>
+    </section>
+    <section class="event event--quarta event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__datails">
+                <h2 class="event__datails__title">09/08/2025</h2>
+                <p class="event__datails__description">
+                    Nossa ultima foto ate o momento, de muitas que ainda vai vir, muito obrigado por tudo, cada carinho, cada afeto
+                </p>
+            </div>
+            <img class="event__image" src="./images/quarta_foto.jpg" alt="quarta foto">
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
